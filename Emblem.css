@@ -1,0 +1,56 @@
+div.emblem {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+#emblem1 {
+    position: absolute; top: 10px; left: 60px;
+    transform-origin: 0% 100% 0px;
+    transform: rotateZ(-45deg) skew(15deg, 15deg);
+    background: linear-gradient(210deg, red, orangered);
+    animation: embAnim1 1s;
+}
+#emblem2 {
+    position: absolute; top: 60px; left: 10px;
+    transform-origin: 100% 0% 0px;
+    transform: rotateZ(15deg) skew(15deg, 15deg);
+    background: linear-gradient(60deg, red, crimson);
+    animation: embAnim2 1s;
+}
+#emblem3 {
+    position: absolute; top: 60px; left: 60px;
+    transform-origin: 0% 0% 0px;
+    transform: rotateZ(-15deg) skew(-15deg, -15deg);
+    background: linear-gradient(120deg, orangered, red);
+    animation: embAnim3 1s;
+}
+@keyframes embAnim1 {
+    from {
+        transform: rotateZ(0deg) skew(0deg, 0deg);
+        background: linear-gradient(0deg, red);
+    }
+    to {
+        transform: rotateZ(-45deg) skew(15deg, 15deg);
+        background: linear-gradient(210deg, red, orangered);
+    }
+}
+@keyframes embAnim2 {
+    from { 
+        transform: rotateZ(0deg) skew(0deg, 0deg); 
+        background: linear-gradient(0deg, red);
+    }
+    to {
+        transform: rotateZ(15deg) skew(15deg, 15deg);
+        background: linear-gradient(60deg, red, crimson);
+    }
+}
+@keyframes embAnim3 {
+    from {
+        transform: rotateZ(0deg) skew(0deg, 0deg);
+        background: linear-gradient(0deg, red);
+    }
+    to {
+        transform: rotateZ(-15deg) skew(-15deg, -15deg);
+        background: linear-gradient(120deg, orangered, red);
+    }
+}

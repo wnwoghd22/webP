@@ -1,3 +1,15 @@
-.test {
-    color: red;
+#title {
+    width: 100%; /*line-height: 100px;*/
+    padding-left: 100px;
+    padding-top: 15px; padding-bottom: 15px;
+}
+#emblemBox {
+    display: inline-block;
+    background: white;
+    width: 120px; height: 120px;
+    position: relative;
+}
+#HeadText {
+    position: relative; top: -30px;
+    display: inline;
 }

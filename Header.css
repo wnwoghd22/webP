@@ -13,3 +13,7 @@
     position: relative; top: -30px;
     display: inline;
 }
+#menuLine {
+    text-align: right;
+    padding-right: 30%;
+}

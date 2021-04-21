@@ -3,7 +3,7 @@ var index = 0;
 var galleryPage = document.getElementById('iGallery');
 
 function resizeIframe(obj) {
-    console.log(obj.contentWindow.document.documentElement.scrollHeight);
+    obj.style.height = 0;
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
 }
 

@@ -22,10 +22,6 @@ drawMenu = () => {
 }
 
 drawHead = () => {
-    document.write(`
-        <link type='text/css' rel="stylesheet" href="/Components/Header/Header.css">
-        <link type='text/css' rel="stylesheet" href="/Components/Header/Emblem.css">
-    `);
     document.write(`<div id='title'>`);
         drawEmblem();
         document.write(`

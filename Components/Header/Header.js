@@ -20,6 +20,16 @@ drawMenu = () => {
         <hr></hr>
     `);
 }
+drawMenu_Absolute = () => {
+    document.write(`
+        <div id='menuLine'>
+            <span><a href='wnwoghd22.github.io/webP/Gallery/index.html'>갤러리</a></span>
+            <span><a href='wnwoghd22.github.io/webP/Introduce/index.html'>작가 소개</a></span>
+            <span><a href='wnwoghd22.github.io/webP/index.html'>홈</a></span>
+        </div>
+        <hr></hr>
+    `);
+}
 
 drawHead = () => {
     document.write(`<div id='title'>`);

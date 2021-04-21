@@ -38,7 +38,8 @@ drawHead = () => {
             <h1 id='HeadText'>Red<sup>3</sup></h1>
         `);
     document.write(`</div>`);
-    drawMenu();
+    //drawMenu();
+    drawMenu_Absolute();
 }
 
 drawHead();

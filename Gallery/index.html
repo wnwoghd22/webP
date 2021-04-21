@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src='./../Header.js'></script>
-        <link type='text/css' rel="stylesheet" href="./../Header.css">
-        <link type='text/css' rel="stylesheet" href="./../Emblem.css">
-        
-        <link type='text/css' rel="stylesheet" href="./Gallary.css">
+        <script src='/Components/Header/Header.js'></script>
+        <link type='text/css' rel="stylesheet" href="./Gallery.css">
     </head>
     <body>
-        <table>
-            <tbody>
-                <tr class='sideButton'>&lt;</tr>
-            </tbody>
-        </table>
+        <script type='module' src='./Gallery.js'></script>
+        <div class='galleryContainer'>
+            <div class='sideButton' id='leftButton'>&lt;</div>
+            <div class='galleryPage'>
+                <iframe
+                    id='iGallery'
+                    frameborder='0'
+                    scrolling='no'
+                    style='
+                        width:100%;
+                    '
+                ></iframe>
+            </div>
+            <div class='sideButton' id='rightButton'>&gt;</div>
+        </div>
     </body>
-    <div class='sideButton'>&lt;</div>
 </html>

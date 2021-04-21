@@ -8,7 +8,7 @@ function resizeIframe(obj) {
 }
 
 function setPage(n) {
-    let url = `/Gallery/Contents/${gList[n]}/index.html`;
+    let url = `./Contents/${gList[n]}/index.html`;
     galleryPage.src = url;
     resizeIframe(galleryPage);
 }

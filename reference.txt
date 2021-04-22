@@ -6,3 +6,6 @@ menu button effect : {
     https://codepen.io/JavaScriptJunkie/pen/pPRooV
     https://davidwalsh.name/detect-sticky
 }
+main page slideshow : {
+    https://www.w3schools.com/howto/howto_js_slideshow.asp
+}

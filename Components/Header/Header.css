@@ -8,6 +8,7 @@
     display: inline;
 }
 #menuLine {
+    z-index: 20;
     top: -1px;
     position: sticky;
     text-align: right;

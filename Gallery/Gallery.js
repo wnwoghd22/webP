@@ -1,4 +1,5 @@
 import gList from './Contents/Contents.js';
+
 var index = 0;
 var galleryPage = document.getElementById('iGallery');
 
@@ -15,3 +16,5 @@ function setPage(n) {
 }
 
 setPage(index);
+
+export { setPage }

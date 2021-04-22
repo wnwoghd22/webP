@@ -1,0 +1,19 @@
+.sideButton {
+    width: 30px;
+    background-color: red;
+    opacity: 0.05;
+    position: fixed;
+    margin: -50px 20px 0 20px;
+    padding: 50px 10px;
+    top: 50%;
+
+    text-align: center;
+    vertical-align: 50%;
+    font-size: 30px;
+
+    border-radius: 10px;
+}
+
+.sideButton:hover {
+    opacity: 0.3;
+}

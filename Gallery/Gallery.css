@@ -1,16 +1,9 @@
 .galleryContainer {
-    display: table;
+    align-items: center;
     height: 100%;
     width: 100%;
 }
 
 .galleryPage {
-    display: table-cell;
     width: 100%;
-}
-
-.sideButton {
-    display: table-cell;
-    position: sticky;
-    top: 50%;
 }

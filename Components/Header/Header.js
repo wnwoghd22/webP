@@ -23,9 +23,9 @@ drawMenu = () => {
 drawMenu_Absolute = () => {
     document.write(`
         <div id='menuLine'>
-            <span><a href='https://wnwoghd22.github.io/webP/Gallery/index.html'>갤러리</a></span>
-            <span><a href='https://wnwoghd22.github.io/webP/Introduce/index.html'>작가 소개</a></span>
-            <span><a href='https://wnwoghd22.github.io/webP/index.html'>홈</a></span>
+            <div class='menuButton red'><a href='https://wnwoghd22.github.io/webP/Gallery/index.html'>갤러리</a></div>
+            <div class='menuButton red'><a href='https://wnwoghd22.github.io/webP/Introduce/index.html'>작가 소개</a></div>
+            <div class='menuButton red'><a href='https://wnwoghd22.github.io/webP/index.html'>홈</a></div>
         </div>
         <hr></hr>
     `);

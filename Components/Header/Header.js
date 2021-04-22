@@ -20,6 +20,7 @@ drawMenu = () => {
         <hr></hr>
     `);
 }
+
 drawMenu_Absolute = () => {
     document.write(`
         <div id='menuLine'>
@@ -43,3 +44,13 @@ drawHead = () => {
 }
 
 drawHead();
+
+const menuBar = document.getElementById('menuLine');
+console.log(menuBar);
+const observer = new IntersectionObserver(([e]) =>
+    e.target.classList.toggle('stuck',
+        e.intersectionRatio < 1),
+        { threshold: [1] }
+);
+
+observer.observe(menuBar);

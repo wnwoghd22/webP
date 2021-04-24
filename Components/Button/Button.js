@@ -3,6 +3,13 @@ import { setPage } from './../../Gallery/Gallery.js';
 
 var index = 0;
 
+let hrefData = location.href.split('?');
+if(hrefData.length > 1) {
+    index = hrefData[1].split('=')[1] - 0; //prevent value become non-number
+}
+
+setPage(index);
+
 var leftButton = document.getElementById('leftButton');
 var rightButton = document.getElementById('rightButton');
 

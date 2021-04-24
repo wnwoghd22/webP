@@ -46,7 +46,6 @@ drawHead = () => {
 drawHead();
 
 const menuBar = document.getElementById('menuLine');
-console.log(menuBar);
 const observer = new IntersectionObserver(([e]) =>
     e.target.classList.toggle('stuck',
         e.intersectionRatio < 1),

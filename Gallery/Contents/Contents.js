@@ -1,5 +1,5 @@
 var gList = [
-    'Mech',
+    'MechFlight',
     'Replica',
 ]
 

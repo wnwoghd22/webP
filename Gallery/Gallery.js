@@ -15,6 +15,11 @@ function setPage(n) {
     galleryPage.src = url;
 }
 
+let hrefData = location.href.split('?');
+if(hrefData.length > 1) {
+    index = hrefData[1].split('=')[1];
+}
+
 setPage(index);
 
 export { setPage }

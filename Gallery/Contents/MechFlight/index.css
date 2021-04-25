@@ -1,13 +1,19 @@
 img.frame {
+    width: 50%;
+
     border-style: solid;
     border-width: 20px;
     
     border-color: white;
-    box-shadow: 0 0  5px 2px slategray;
+    box-shadow: 0 0  5px 2px orangered;
 }
 
 .alignBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.title {
+    background: radial-gradient(dodgerblue 30%, #00000000 70%);
 }

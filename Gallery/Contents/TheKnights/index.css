@@ -1,0 +1,28 @@
+img.frame {
+    width: 50%;
+
+    border-style: solid;
+    border-width: 20px;
+    
+    border-color: #FFFFFFFF;
+    box-shadow: 0 0  5px 2px #00000033;
+}
+
+img.frame.red {
+    border-color: red;
+    box-shadow: 0 0  5px 2px firebrick;
+}
+img.frame.dark {
+    border-color: black;
+    box-shadow: 0 0  5px 2px silver;
+}
+img.frame.white {
+    border-color: white;
+    box-shadow: 0 0  5px 2px goldenrod;
+}
+
+.alignBox {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
